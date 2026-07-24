@@ -90,6 +90,34 @@ tools:
     owner: bgruening
     tool_panel_section_label: Annotation
 
+  - name: kat_sect
+    owner: bgruening
+    tool_panel_section_label: Annotation
+
+  - name: kat_hist
+    owner: bgruening
+    tool_panel_section_label: Annotation
+
+  - name: kat_gcp
+    owner: bgruening
+    tool_panel_section_label: Annotation
+
+  - name: kat_filter_seq
+    owner: bgruening
+    tool_panel_section_label: Annotation
+
+  - name: kat_filter_kmer
+    owner: bgruening
+    tool_panel_section_label: Annotation
+
+  - name: kat_comp
+    owner: bgruening
+    tool_panel_section_label: Annotation
+
+  - name: kat_cold
+    owner: bgruening
+    tool_panel_section_label: Annotation
+
   - name: logan_protein_embed_query
     owner: bgruening
     tool_panel_section_label: Annotation
@@ -145,6 +173,10 @@ tools:
     tool_panel_section_label: Assembly
 
   - name: nextdenovo
+    owner: bgruening
+    tool_panel_section_label: Assembly
+
+  - name: pecat
     owner: bgruening
     tool_panel_section_label: Assembly
 
@@ -270,6 +302,14 @@ tools:
     tool_panel_section_label: Imaging
     
   - name: bioimage_inference
+    owner: bgruening
+    tool_panel_section_label: Imaging
+
+  - name: edit_coco_annotation
+    owner: bgruening
+    tool_panel_section_label: Imaging
+
+  - name: coco_annotation_visualizer
     owner: bgruening
     tool_panel_section_label: Imaging
 
@@ -585,7 +625,27 @@ tools:
 
 # OTHER TOOLS
 
+  - name: 3dtrees_metadata
+    owner: bgruening
+    tool_panel_section_label: Other Tools
+
+  - name: 3dtrees_forestmamba
+    owner: bgruening
+    tool_panel_section_label: Other Tools
+
   - name: carveme
+    owner: bgruening
+    tool_panel_section_label: Other Tools
+
+  - name: kraken_segment
+    owner: bgruening
+    tool_panel_section_label: Other Tools
+
+  - name: kraken_ocr
+    owner: bgruening
+    tool_panel_section_label: Other Tools
+
+  - name: kraken_binarize
     owner: bgruening
     tool_panel_section_label: Other Tools
 
@@ -692,6 +752,14 @@ tools:
 
   - name: diff
     owner: bgruening
+    tool_panel_section_label: Text Manipulation
+
+  - name: grobid_grobid
+    owner: iuc
+    tool_panel_section_label: Text Manipulation
+
+  - name: grobid_dataset_annotate
+    owner: iuc
     tool_panel_section_label: Text Manipulation
 
   - name: replace_column_by_key_value_file
